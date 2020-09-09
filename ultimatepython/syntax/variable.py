@@ -1,33 +1,33 @@
+# -*- coding: utf-8 -*
+
 def main():
-    # Here are the main literal types to be aware of
+    # 这是要注意的主要数据类型
     a = 1
     b = 2.0
     c = True
     d = "hello"
 
-    # Notice that each type is a class. Each of the variables above refers
-    # to an instance of the class it belongs to
+    # 请注意，每种类型都是一个类。
+    # 上面的每个变量都引用了它所属的类的一个实例
     a_type = type(a)
     b_type = type(b)
     c_type = type(c)
     d_type = type(d)
 
-    # Also, say hello to the `assert` keyword! This is a debugging aid that
-    # we will use to validate the code as we progress through each `main`
-    # function. These statements are used to validate the correctness of
-    # the data and to reduce the amount of output sent to the screen
+    # 现在，让我们认识 `assert` 关键字。
+    # 这是一个调试辅助工具，在我们逐步执行每个`main`函数时，我们将使用它们来验证代码。
+    # 这些语句用于验证数据的正确性并减少发送到屏幕的输出量
     assert a_type is int
     assert b_type is float
     assert c_type is bool
     assert d_type is str
 
-    # Everything is an object in Python. That means instances are objects
-    # and classes are objects as well
+    # Python中的一切都是对象。这意味着实例是对象，类也是对象
     assert isinstance(a, object) and isinstance(a_type, object)
     assert isinstance(b, object) and isinstance(b_type, object)
     assert isinstance(c, object) and isinstance(c_type, object)
     assert isinstance(d, object) and isinstance(d_type, object)
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

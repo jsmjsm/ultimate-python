@@ -51,11 +51,11 @@ inspiring and highly encouraged if your goal is to become a true
     - Design Philosophy: [The Zen of Python](https://www.python.org/dev/peps/pep-0020/) (:books:)
     - Style Guide: [Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/) (:books:, :exploding_head:)
     - Data Model: [Data model](https://docs.python.org/3/reference/datamodel.html) (:books:, :exploding_head:)
-2. **Syntax**
-    - Variable: [Built-in literals](ultimatepython/syntax/variable.py) (:cake:)
-    - Expression: [Numeric operations](ultimatepython/syntax/expression.py) (:cake:)
-    - Conditional: [if | if-else | if-elif-else](ultimatepython/syntax/conditional.py) (:cake:)
-    - Loop: [for-loop | while-loop](ultimatepython/syntax/loop.py) (:cake:)
+2. **语法**
+    - 变量: [内置文字类型](ultimatepython/syntax/variable.py) (:cake:)
+    - 表达式: [对数字的操作](ultimatepython/syntax/expression.py) (:cake:)
+    - 控制条件: [if | if-else | if-elif-else](ultimatepython/syntax/conditional.py) (:cake:)
+    - 循环: [for-loop | while-loop](ultimatepython/syntax/loop.py) (:cake:)
     - Function: [def | lambda](ultimatepython/syntax/function.py) (:cake:)
 3. **Data Structures**
     - List: [List operations](ultimatepython/data_structures/list.py) (:cake:)
