@@ -1,13 +1,13 @@
-from inspect import signature
+from inspect import isfunction, ismethod, signature
 
 
 class Car:
     """Basic definition of a car.
 
-    A car is a good entity for defining with a class because it has state
-    and methods associated with it. We start with a simple mental model
-    of what a car is, so that we can start with core concepts associated
-    with a class definition.
+    A car is a good entity to define a class with because it has state
+    and methods associated with it. We begin with a simple mental model
+    of what a car is. That way, we can start talking about core concepts
+    that are associated with a class definition.
     """
 
     def __init__(self, make, model, year, miles):
@@ -26,7 +26,7 @@ class Car:
         return f"{self.make} {self.model} ({self.year})"
 
     def drive(self, rate_in_mph):
-        """Drive car at a certain rate."""
+        """Drive car at a certain rate in MPH."""
         return f"{self} is driving at {rate_in_mph} MPH"
 
 
@@ -44,10 +44,9 @@ def main():
     # As a reminder: everything in Python is an object! And that applies
     # to classes in the most interesting way - because they're not only
     # subclasses of object - they are also instances of object. This
-    # means that we can modify the Car class at runtime, just like any
+    # means that we can modify the `Car` class at runtime, just like any
     # other piece of data we define in Python
-    assert issubclass(Car, object)
-    assert isinstance(Car, object)
+    assert issubclass(Car, object) and isinstance(Car, object)
 
     # To emphasize the idea that everything is an object, let's look at
     # the `drive` method in more detail
@@ -58,6 +57,9 @@ def main():
 
     # The variable method is bound to the instance
     assert driving.__self__ == car
+
+    # That is why `driving` is considered a method and not a function
+    assert ismethod(driving) and not isfunction(driving)
 
     # And there is only one parameter for `driving` because `__self__`
     # binding is implicit
