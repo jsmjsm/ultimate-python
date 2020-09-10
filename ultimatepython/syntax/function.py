@@ -1,4 +1,8 @@
 def add(x, y):
+    """
+    将两个对象加到一起去产生一个新的对象
+    ''
+    """
     """Add two objects together to produce a new object.
 
     Two differences between `add` and `main` are that:

@@ -56,7 +56,7 @@ inspiring and highly encouraged if your goal is to become a true
     - 表达式: [对数字的操作](ultimatepython/syntax/expression.py) (:cake:)
     - 控制条件: [if | if-else | if-elif-else](ultimatepython/syntax/conditional.py) (:cake:)
     - 循环: [for-loop | while-loop](ultimatepython/syntax/loop.py) (:cake:)
-    - Function: [def | lambda](ultimatepython/syntax/function.py) (:cake:)
+    - 函数: [def | lambda](ultimatepython/syntax/function.py) (:cake:)
 3. **Data Structures**
     - List: [List operations](ultimatepython/data_structures/list.py) (:cake:)
     - Tuple: [Tuple operations](ultimatepython/data_structures/tuple.py)

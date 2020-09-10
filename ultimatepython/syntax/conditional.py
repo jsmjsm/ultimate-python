@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*
 def main():
     x = 1
     x_add_two = x + 2
