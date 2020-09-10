@@ -36,7 +36,6 @@ def main():
         i *= 2
 
         if i >= 8:
-<<<<<<< HEAD
             # break语句停止当前的while循环。
             # 如果此“ while”循环嵌套在另一个循环中，则此语句不会停止父循环
             break
@@ -44,7 +43,6 @@ def main():
         if i == 2:
 
             # `continue`语句返回到当前`while`循环的开始
-=======
             # The `break` statement stops the current `while` loop.
             # If this `while` loop was nested in another loop,
             # this statement would not stop the parent loop
@@ -55,7 +53,6 @@ def main():
             # The `continue` statement returns to the start of the
             # current `while` loop
             continue_hit = True
->>>>>>> 1f8f61d4d524b83f6dd07078ada4e7a2d13cbf7d
             continue
 
         # `while`循环终止于此值
